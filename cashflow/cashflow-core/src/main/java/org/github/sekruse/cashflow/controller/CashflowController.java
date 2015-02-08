@@ -4,6 +4,7 @@ import org.github.sekruse.cashflow.model.Account;
 import org.github.sekruse.cashflow.model.User;
 
 import java.util.Collection;
+import java.util.Properties;
 
 /**
  * @author Sebastian
