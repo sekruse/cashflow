@@ -6,7 +6,7 @@ package org.github.sekruse.cashflow.controller;
  * @author Sebastian
  * @since 08.02.2015.
  */
-public class CashflowControllerInstantiationException extends Exception {
+public class CashflowControllerInstantiationException extends CashflowException {
 
     public CashflowControllerInstantiationException() {
         super();

@@ -3,8 +3,8 @@
 --
 -- Text encoding used: windows-1252
 --
-PRAGMA foreign_keys = off;
-BEGIN TRANSACTION;
+-- PRAGMA foreign_keys = off;
+-- BEGIN TRANSACTION;
 
 -- Table: Action
 DROP TABLE IF EXISTS [Action];
@@ -84,6 +84,3 @@ CREATE TABLE [Transaction] (
   uuid        BLOB    UNIQUE
                       NOT NULL
 );
-
-
-COMMIT TRANSACTION;

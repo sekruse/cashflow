@@ -13,12 +13,16 @@ import java.util.Properties;
  */
 public interface CashflowController {
 
-    User createUser(String name);
+    User createUser(String name) throws CashflowWriteException;
+
+    Collection<User> getAllUsers() throws CashflowReadException;
 
     Account createAccount(String name, User user);
 
     Share createShare(String name, Account account, Collection<User> users);
 
     TransactionBuilder buildTransaction();
+
+    void close();
 
 }

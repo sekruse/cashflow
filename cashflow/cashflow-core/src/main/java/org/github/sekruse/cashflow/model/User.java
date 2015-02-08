@@ -16,4 +16,5 @@ public interface User {
      */
     UUID getId();
 
+    String getName();
 }
